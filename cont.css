@@ -1,0 +1,164 @@
+#titulo{
+
+    color:brown;
+}
+
+p.texto{
+
+    color: blueviolet;
+}
+
+p.special{
+
+color:aqua
+    
+}
+
+div p {
+
+color:brown
+
+}
+
+div h2, div h3 {
+
+    color: blue
+    
+}
+
+* {
+   font-size: 24px
+   
+}
+ 
+/* esto es un comentario */
+
+/*
+.color{
+
+color: #f00000
+}
+.color{
+color: rgb(0,255,0)
+}
+*/
+/*
+.color{
+    color: 7px red inset
+}*/
+
+.color {
+border-style:solid;
+border-color: red ; 
+border-radius: 12px ;
+border-width: 2px;
+}
+#fondo {
+/*opacity:0.3;*/
+background:#f00 url('../img/feliz.jpg') repeat-y right top /100px 100px;
+
+}
+
+.margen{
+    background-color: coral;
+    margin: 20px ;
+    padding: 30px  15px;
+    border: solid 2px black;
+    height: 100px;
+    width: 20px;
+    overflow: scroll ;
+    outline: 1px solid red ;
+}
+
+
+.text{
+font-family:'poppins';
+text-align: center ;
+text-decoration: overline ;
+text-shadow:4px  5px 5px blue ;
+}
+
+a:link {
+    
+ color:aquamarine;
+
+}
+
+a:visited {
+
+    color:cadetblue;
+
+}
+
+a:hover{
+
+    color:coral;
+}
+
+a:active{
+
+    color:#f00;
+}
+
+ul{
+
+    background-color: rebeccapurple;
+    list-style-type:georgian;
+   /* padding-left: 0;
+    list-style-position:inside;*/
+}
+
+
+table{
+
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+
+border: solid 2px coral ;
+padding: 5px;
+}
+
+th{
+    background-color: red;
+    color:azure;
+    text-align: center;
+
+}
+tr:nth-child(even){
+    background-color: aqua ;
+ }
+
+tr:hover{
+   background-color: blue; 
+   cursor: pointer;}
+
+span{
+ display: block;
+
+}
+.inline{
+    display: inline;}
+
+.left{
+    float: left;
+    width: 100px;
+}
+
+.container{
+height: 200px;
+}
+
+
+
+.center{
+    text-align: center;
+      width:400px;
+    margin: 0 auto;
+    background-color: red; 
+
+}
+
+
