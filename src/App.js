@@ -14,8 +14,8 @@ function App() {
         <NavBarr />
         <Baner />
         <Skills />
-        <Projects />
-        <Footer />
+         <Projects />
+         <Footer />
         {/* You can add more components here as needed */}
     </div>
   );

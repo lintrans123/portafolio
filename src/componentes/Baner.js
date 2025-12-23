@@ -59,7 +59,7 @@ export const Baner = () => {
                 <span className="tagline">Bienvenido a mi portafolio </span>
                 <h1>{`Hola! Soy  Lindher`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Soy un apasionado de la programación y la tecnología, con una curiosidad insaciable por aprender y crear. Además de mis habilidades en lenguajes como Python, JavaScript y frameworks como React , disfruto explorar nuevas tecnologías y herramientas que me permitan desarrollar soluciones innovadoras.</p>
-                  <button onClick={() => window.open('https://www.facebook.com/profile.php?id=61576355712968&sk=about')}> encuentrame  <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window.open('https://www.linkedin.com/in/napoleon-lindher-cardenas-sanchez-871952258')}> encuentrame  <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

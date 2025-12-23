@@ -36,16 +36,15 @@ export const Newsletter = ({ status, message, onValidated }) => {
               {status === 'success' && <Alert variant="success">{typeof message === 'string' ? message : '¡Suscripción exitosa!'}</Alert>}
             </Col>
             <Col md={6} xl={7}>
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={handleSubmit} className="form-botton" >
                 <div className="new-email-bx">
              <input value={firstName} type="text" onChange={(e) => setFirstName(e.target.value)} placeholder="Nombre" />
-                </div> 
-                <p></p>
-
-             </form>
-              <form onSubmit={handleSubmit}>
-                <div className="new-email-bx">
-                  <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
+                </div>
+                </form>
+                
+                <form onSubmit={handleSubmit}>
+              <div className="new-email-bx">
+              <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
                   <button type="submit">enviar</button>
                 </div>
               </form>
