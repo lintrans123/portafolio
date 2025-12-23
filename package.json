@@ -1,7 +1,7 @@
 {
   "name": "mi-portafolio",
   "version": "0.1.0",
-  "homepage": "https://lintrans123.github.io/portafolio/",
+  "homepage": "https://lintrans123.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
