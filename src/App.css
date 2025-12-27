@@ -43,7 +43,7 @@ html{
  
 /* Estilos globales */
 body{
-  font-weight: 400;
+  font-weight: 100px;
   overflow-x: hidden;
   position: relative;
   background-color: #282c34 !important;
@@ -161,7 +161,7 @@ span.navbar-text{
 .social-icon a {
   width: 42px;
   height: 42px;
-  background:rgb(217, 217, 217);;
+  background:rgb(63, 53, 53);;
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
@@ -321,7 +321,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./imagen/fondo.jpg');
+  background-image: url('./imagen/fondo2.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -394,8 +394,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
-  
- 
+  background-image: url('./imagen/fondo2.jpg');
+  background-position: center center;
+  background-size: cover;
 }
 .skill-bx {
   background: #151515;
@@ -436,9 +437,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /*Project*/
 .project {
-  padding: 50px ;
-  position: relative;
-  background-image:" url('./imagen/fondo2.jpg');" ;
+  padding: 100px ;
+  position: center;
+  background-image: url('./imagen/fondo2.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+
 }
 .project h2 {
 	font-size: 45px;
@@ -560,21 +565,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 20px;
-  width: 35%;
-  right: 0;
-  z-index: -5;
-}
-
-
-
 
 
 
 /************ Projects Css ,contact************/
+/*
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
@@ -645,17 +640,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover::before {
   width: 100%;
 }
-
+*/
 
 /************ Footer Css ************/
 .footer {
-  padding: 100px 0 50px 0px;
-  background-image: url('./imagen/fondo.jpg');
+  padding: 50px 0 20px 0px;
+ background-image: url('./imagen/fondo2.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  min-height: 100vh;
+  min-height: 10vh; /*espacio de abajo*/
 
 }
 
@@ -737,43 +732,82 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 
-/*
-.App {
-  text-align: center;
+
+
+.fote{
+  padding: 0px 0 0px 0;
+  background-color: #121212;
+  position: relative;
+  overflow-x: hidden;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Columna 2 - Íconos sociales y copyright */
+.flex-column2 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: right;
+  justify-content: right;
+  text-align: right;
+  margin: 0px 0px 0px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.flex-column1 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  margin: 0px 0px 0px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.flex-column1 .logo {
+  width: auto;
+  height: auto;
+  max-width: 80px;
+}
+
+
+
+
+/* Texto de copyright */
+.flex-column2 p {
+  color: #B8B8B8;
+  font-size: 14px;
+  
+  position: left;
+  margin: 0px 20px 0px 0px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+
+
+@media (max-width: 768px) {
+  .banner {
+    padding: 180px 0 80px 0;
   }
-  to {
-    transform: rotate(360deg);
+  .banner h1 {
+    font-size: 40px;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .skill-bx {
+    padding: 40px 20px;
+  }
+  .project p {
+    width: 100%;
+  }
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+  .footer img {
+    width: 50%;
+  }
+  .newsletter-bx {
+    padding: 40px 20px;
+    margin-top: -50px;
   }
 }
-*/

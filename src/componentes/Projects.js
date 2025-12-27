@@ -4,7 +4,6 @@ import projImg1 from "../imagen/Project1.jpg";
 import projImg2 from "../imagen/Project2.jpg";
 import projImg3 from "../imagen/Project3.PNG";
 import papel from "../imagen/imagen2.jpeg"
-import colorSharp2 from "../imagen/fondo2.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -106,7 +105,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
 }
